@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ImGUI">
+      <UniqueIdentifier>{4ac53383-7849-4a87-96da-2fa3b2520dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VMT_Hooking">
+      <UniqueIdentifier>{f4557240-1b7c-4485-b24a-891b3c7cbb7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{11c3c7d0-4ac6-46b5-8461-6f2dd9eba375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay">
+      <UniqueIdentifier>{25744cca-0b02-4085-8e5f-f27d2201f83f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks">
+      <UniqueIdentifier>{ba3f83f2-c555-4094-b5bf-55ec6361f8ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{7f4313dc-f4c4-4e6c-8b91-c3dd508941e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks\Features">
+      <UniqueIdentifier>{cd894ce6-2ab7-4de8-95ea-d4bac666eca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gaussian Blur">
+      <UniqueIdentifier>{de178e88-270c-45e7-b446-019d98d2f010}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="VMTHooking.cpp">
+      <Filter>VMT_Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="Visuals.cpp">
+      <Filter>Hacks\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="quartic.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Cfg.cpp">
+      <Filter>Hacks\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx9.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuBackground.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="IniParser.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPrediction.cpp">
+      <Filter>Hacks\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeInfo.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="PreFrameUpdateHook.cpp">
+      <Filter>VMT_Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordHook.cpp">
+      <Filter>VMT_Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="PresentHook.cpp">
+      <Filter>VMT_Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="InputActions.cpp">
+      <Filter>Hacks\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsRayQueryHook.cpp">
+      <Filter>VMT_Hooking</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Misc.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="VMTHooking.h">
+      <Filter>VMT_Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Visuals.h">
+      <Filter>Hacks\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeInfo.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="quartic.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Cfg.h">
+      <Filter>Hacks\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx9.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuBackground.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="IniParser.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityPrediction.h">
+      <Filter>Hacks\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordHook.h">
+      <Filter>VMT_Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="InputActions.h">
+      <Filter>Hacks\Features</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
